@@ -17,6 +17,7 @@ function Home() {
         <div className='main'>
             <h1>Level Up</h1>
             <h1>Your Gaming</h1>
+            <h3>Take your Gaming to the next Level. Find Games on sale Under $15 with the click of a button!</h3>
             <a href="/games"><button className='game-button'>View Prices</button></a>
         </div>
     </div>

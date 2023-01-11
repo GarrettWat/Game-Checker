@@ -24,6 +24,7 @@ function Games() {
         setGames(data)
         console.log(data)
     }
+    const steam = `https://store.steampowered.com/app/ ${games.steamAppID}`
   return (
     <div className='back-games'>
         <div className='sidebar'>
@@ -35,11 +36,12 @@ function Games() {
             {games.map((games) => {
                 return(
                     <div>
+                        <a href={"https://store.steampowered.com/app/" + games.steamAppID} target="_blank" className='card'>
                         <Card sx={{ maxWidth: 345, m: 2}}>
                             <CardActionArea>
                                 <CardMedia
                                 component="img"
-                                height="140"
+                                height="110"
                                 image={games.thumb}
                                 alt="green iguana"
                                 />
@@ -48,11 +50,13 @@ function Games() {
                                     {games.title}
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    {games.salePrice}
+                                    Current: $ {games.salePrice}   |   Original: $ {games.normalPrice}
                                 </Typography>
                                 </CardContent>
                             </CardActionArea>
                         </Card>
+                        </a>
+
                     </div>
                 )
             })}

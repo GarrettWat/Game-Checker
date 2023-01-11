@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450vh;
+    height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -43,7 +43,11 @@
         top: 100px;
         left: 0;
     }
-    .back-games{
-        height: 16500px;
-    }
 }
+
+.card {
+    text-decoration: none;
+}
+.card:link    { color: white; text-decoration: none; }
+.card:visited { color: white; text-decoration: none; }
+.card:active  { color: white; text-decoration: none; }
