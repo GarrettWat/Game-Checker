@@ -10,7 +10,7 @@ web app that displays games on sale
 - React Router DOM
 ## To Do
 - [x]  Display Games
-- []   add New Features
+- [ ]   add New Features
 
 ## Run Locally
 
