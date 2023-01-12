@@ -25,12 +25,12 @@
     left: 0;
     z-index: 2;
     color: white;
-    border-right: 1px solid wheawt;
 }
 .icons {
     margin-left: 50px;
     opacity: 30%;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .icons:link    { color: white; text-decoration: none; }
@@ -48,6 +48,7 @@
     margin-left: 50px;
     opacity: 30%;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .iconss:link    { color: white; text-decoration: none; }

@@ -36,27 +36,12 @@ function Games() {
             {games.map((games) => {
                 return(
                     <div>
-                        <a href={"https://store.steampowered.com/app/" + games.steamAppID} target="_blank" className='card'>
-                        <Card sx={{ maxWidth: 345, m: 2}}>
-                            <CardActionArea>
-                                <CardMedia
-                                component="img"
-                                height="110"
-                                image={games.thumb}
-                                alt="green iguana"
-                                />
-                                <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    {games.title}
-                                </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    Current: $ {games.salePrice}   |   Original: $ {games.normalPrice}
-                                </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                        </a>
-
+                        <div className='main-card'>
+                            <img src={games.thumb} alt="game_picture" className='game-pic'/>
+                            <a href={"https://store.steampowered.com/app/" + games.steamAppID} target="_blank" className='game-viewer'><button  className='game-viewer2'>View Game</button></a>
+                            <h1 className='text'>{games.title}</h1>
+                            <h1 className='text'>Current: $ {games.salePrice}   |   Original: $ {games.normalPrice}</h1>
+                        </div>
                     </div>
                 )
             })}
