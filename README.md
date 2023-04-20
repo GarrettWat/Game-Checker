@@ -18,13 +18,13 @@ web app that displays games on sale
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/GarrettWat/Game-Checker.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Game-Checker
 ```
 
 Install dependencies
