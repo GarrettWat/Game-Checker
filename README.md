@@ -6,11 +6,12 @@ web app that displays games on sale
 ## Dev Dependencies
 - Material UI
 - React
+- Framer Motion
 - React DOM
 - React Router DOM
 ## To Do
 - [x]  Display Games
-- [ ]   add New Features
+- [ ]  Add Favorites List
 
 ## Run Locally
 
