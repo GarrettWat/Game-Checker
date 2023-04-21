@@ -6,24 +6,25 @@ web app that displays games on sale
 ## Dev Dependencies
 - Material UI
 - React
+- Framer Motion
 - React DOM
 - React Router DOM
 ## To Do
 - [x]  Display Games
-- [ ]   add New Features
+- [ ]  Add Favorites List
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/GarrettWat/Game-Checker.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Game-Checker
 ```
 
 Install dependencies
